@@ -37,6 +37,30 @@ _RAW_DIR = 'raw_dir'
 
 # Available datasets
 _DATASETS = {
+    'cityscapes_fine_instanceonly_seg_sequences_train': {
+        _IM_DIR:
+            _DATA_DIR + '/cityscapes_sequences/images',
+        _ANN_FN:
+            _DATA_DIR + '/cityscapes_sequences/annotations/instancesonly_gtFine_train.json',
+        _RAW_DIR:
+            _DATA_DIR + '/cityscapes_sequences/raw'
+    },
+    'cityscapes_fine_instanceonly_seg_sequences_val': {
+        _IM_DIR:
+            _DATA_DIR + '/cityscapes_sequences/images',
+        _ANN_FN:
+            _DATA_DIR + '/cityscapes_sequences/annotations/instancesonly_gtFine_val.json',
+        _RAW_DIR:
+            _DATA_DIR + '/cityscapes_sequences/raw'
+    },
+    'cityscapes_fine_instanceonly_seg_sequences_test': {
+        _IM_DIR:
+            _DATA_DIR + '/cityscapes_sequences/images',
+        _ANN_FN:
+            _DATA_DIR + '/cityscapes_sequences/annotations/instancesonly_gtFine_test.json',
+        _RAW_DIR:
+            _DATA_DIR + '/cityscapes_sequences/raw'
+    },
     'cityscapes_fine_instanceonly_seg_train': {
         _IM_DIR:
             _DATA_DIR + '/cityscapes/images',
